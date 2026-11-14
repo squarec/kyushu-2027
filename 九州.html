@@ -201,7 +201,7 @@
   <div class="day-strip">
     <div class="day-pill" onclick="jumpToDay('d1')"><div class="d">Day 1 (1/26)</div><div class="r">抵達福岡・博多周邊（不租車）</div><div class="h">🏨 博多</div></div>
     <div class="day-pill" onclick="jumpToDay('d2')"><div class="d">Day 2 (1/27)</div><div class="r">取車→柳川暖桌遊船→太宰府</div><div class="h">🏨 博多（同間）</div></div>
-    <div class="day-pill" onclick="jumpToDay('d3')"><div class="d">Day 3 (1/28)</div><div class="r">（選配：下關）→小倉→別府</div><div class="h">🏨 別府</div></div>
+    <div class="day-pill" onclick="jumpToDay('d3')"><div class="d">Day 3 (1/28)</div><div class="r">恐龍博物館→小倉→別府</div><div class="h">🏨 別府</div></div>
     <div class="day-pill" onclick="jumpToDay('d4')"><div class="d">Day 4 (1/29)</div><div class="r">海たまご・地獄巡禮（＋自由選）</div><div class="h">🏨 別府</div></div>
     <div class="day-pill" onclick="jumpToDay('d5')"><div class="d">Day 5 (1/30)</div><div class="r">宇佐神宮→回博多還車</div><div class="h">🏨 博多（同間）</div></div>
     <div class="day-pill" onclick="jumpToDay('d6')"><div class="d">Day 6 (1/31)</div><div class="r">博多購物→福岡機場</div><div class="h">✈️ 無住宿</div></div>
@@ -216,7 +216,7 @@
     </div>
     <div class="card" onclick="switchTab('tab-map')">
       <div class="icon">🖼️</div><div class="title">路線地圖</div>
-      <div class="desc">Day 1–6 行駛路線與各站位置示意圖（下關為選配）</div>
+      <div class="desc">Day 1–6 行駛路線與各站位置示意圖</div>
       <span class="tag tag-itinerary">看路線地圖</span>
     </div>
     <div class="card" onclick="switchTab('tab-checklist')">
@@ -242,16 +242,15 @@
   <text x="672" y="410" font-size="13" fill="#0369a1">別府灣</text>
   <text x="300" y="400" font-size="14" fill="#a16207" opacity="0.7">九州（示意）</text>
   <polyline points="128,149 110,200 120,255 150,222 168,186 128,149" fill="none" stroke="#ea580c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <polyline points="255,118 292,62 345,120" fill="none" stroke="#9ca3af" stroke-width="4" stroke-dasharray="3 8" stroke-linecap="round" stroke-linejoin="round"/>
+
   <polyline points="128,149 200,125 255,118 345,120 430,160 500,180 540,250 556,310" fill="none" stroke="#16a34a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   <polyline points="556,310 592,326" fill="none" stroke="#7c3aed" stroke-width="4" stroke-dasharray="2 9" stroke-linecap="round"/>
   <polyline points="560,318 520,255 490,190 420,170 350,132 270,128 205,138 134,158" fill="none" stroke="#0891b2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <g><circle cx="128" cy="149" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="118" y="135" text-anchor="end" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">博多</text><circle cx="168" cy="186" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="180" y="200" text-anchor="start" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">太宰府</text><circle cx="120" cy="255" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="132" y="270" text-anchor="start" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">柳川</text><circle cx="292" cy="62" r="6" fill="#fff" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="3 2"/><text x="304" y="56" text-anchor="start" font-size="15" font-weight="700" fill="#6b7280" stroke="#fff" stroke-width="3" paint-order="stroke">下關（選配）</text><circle cx="345" cy="120" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="357" y="112" text-anchor="start" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">小倉</text><circle cx="500" cy="180" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="490" y="168" text-anchor="end" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">宇佐神宮</text><circle cx="556" cy="310" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="526" y="298" text-anchor="end" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">別府</text><circle cx="592" cy="326" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="604" y="348" text-anchor="start" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">海たまご</text></g>
+  <g><circle cx="128" cy="149" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="118" y="135" text-anchor="end" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">博多</text><circle cx="168" cy="186" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="180" y="200" text-anchor="start" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">太宰府</text><circle cx="120" cy="255" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="132" y="270" text-anchor="start" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">柳川</text><circle cx="300" cy="119" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="300" y="100" text-anchor="middle" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">八幡🦖</text><circle cx="345" cy="120" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="357" y="112" text-anchor="start" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">小倉</text><circle cx="500" cy="180" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="490" y="168" text-anchor="end" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">宇佐神宮</text><circle cx="556" cy="310" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="526" y="298" text-anchor="end" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">別府</text><circle cx="592" cy="326" r="6" fill="#fff" stroke="#111827" stroke-width="2.5"/><text x="604" y="348" text-anchor="start" font-size="15" font-weight="700" fill="#111827" stroke="#fff" stroke-width="3" paint-order="stroke">海たまご</text></g>
 </svg>
     <div class="map-legend">
       <span><i style="background:#ea580c"></i>D2 博多→柳川→太宰府→博多</span>
-      <span><i style="background:#16a34a"></i>D3 博多→小倉→別府（東九州道）</span>
-      <span><i style="background:#9ca3af"></i>D3 選配：下關</span>
+      <span><i style="background:#16a34a"></i>D3 博多→八幡→小倉→別府（東九州道）</span>
       <span><i style="background:#7c3aed"></i>D4 別府↔海たまご</span>
       <span><i style="background:#0891b2"></i>D5 別府→宇佐→博多</span>
     </div>
@@ -264,9 +263,8 @@
       <tr><td>博多 → 柳川</td><td>約 1 小時</td></tr>
       <tr><td>柳川 → 太宰府</td><td>約 50 分</td></tr>
       <tr><td>太宰府 → 博多</td><td>約 40 分</td></tr>
-      <tr><td>博多 → 下關（選配）</td><td>約 1 小時 10 分</td></tr>
-      <tr><td>下關 → 小倉（選配）</td><td>約 20–30 分</td></tr>
-      <tr><td>博多 → 小倉（不去下關）</td><td>約 1 小時 15 分</td></tr>
+      <tr><td>博多 → いのちのたび博物館（八幡）</td><td>約 1 小時</td></tr>
+      <tr><td>博物館 → 小倉</td><td>約 20 分</td></tr>
       <tr><td>小倉 → 別府（東九州道）</td><td>約 1.5–2 小時</td></tr>
       <tr><td>別府 → 海たまご</td><td>約 15 分</td></tr>
       <tr><td>別府 → 宇佐</td><td>約 50 分</td></tr>
@@ -329,19 +327,18 @@
 <div class="day-card" id="d3">
   <div class="day-header">
     <div class="day-num" style="background:#16a34a">Day<br>3</div>
-    <div class="day-title"><h2>（選配：下關）→ 🏙️ 小倉 → ♨️ 別府</h2><div class="day-meta">1/28（四）・自駕約 2.5–3 小時</div></div>
+    <div class="day-title"><h2>🦖 恐龍博物館 → 🏙️ 小倉 → ♨️ 別府</h2><div class="day-meta">1/28（四）・自駕約 2.5–3 小時</div></div>
   </div>
-  <div class="day-transport">🚗 <strong>自駕</strong>｜核心行程為小倉；<strong>下關為選配</strong>，視體力與天氣決定（車程皆為估計，未查證）</div>
+  <div class="day-transport">🚗 <strong>自駕</strong>｜上午八幡いのちのたび博物館，中午小倉，下午東九州道到別府（車程皆為估計，未查證）</div>
   <div class="schedule">
     <div class="schedule-row"><div class="time-col">08:45</div><div class="event-col"><span class="event-tag tag-move">出發</span>博多退房，<strong>大行李寄放博多飯店</strong>，只帶 2 晚輕便行李上車；中途可在古賀 SA 休息</div></div>
-    <div class="schedule-row highlight-row"><div class="time-col">選配 A</div><div class="event-col"><span class="event-tag tag-sight">選配</span><strong>含下關</strong>（約 10:00–12:00）｜九州道 → 關門橋到下關（約 1 小時 10 分），停赤間神宮附近停車場 → <strong>日清講和記念館</strong>＋<strong>春帆樓</strong>外觀（馬關條約簽約地）→ <strong>赤間神宮</strong>（三處走路數分鐘；正門有階梯，母親可走右側車道斜坡）。唐戶市場不排。春帆樓用餐需預約、價位偏高；記念館開放時間／票價／冬季公休<strong>未查證</strong></div></div>
-    <div class="schedule-row highlight-row"><div class="time-col">選配 B</div><div class="event-col"><span class="event-tag tag-move">直達</span><strong>不含下關</strong>｜約 11:00 博多直接走九州道到小倉（約 1 小時 15 分），車程較輕鬆</div></div>
-    <div class="schedule-row"><div class="time-col">12:30</div><div class="event-col"><span class="event-tag tag-food">午餐</span>🍜 <strong>小倉</strong>午餐：焼うどん、鐵板料理（有座位的店）</div></div>
+    <div class="schedule-row highlight-row"><div class="time-col">10:00</div><div class="event-col"><span class="event-tag tag-sight">景點</span>🦖 <strong>いのちのたび博物館</strong>（約 10:00–11:45）｜大型恐龍骨架，8 歲最愛；館內平地、有電梯。09:00–17:00；成人 ¥600、小學生 ¥240；停車場 300 台。⚠️ 每年 1 月下旬～2 月上旬可能「害虫駆除」休館，出發前查官網</div></div>
+    <div class="schedule-row"><div class="time-col">12:15</div><div class="event-col"><span class="event-tag tag-food">午餐</span>🍜 <strong>小倉</strong>午餐：焼うどん、鐵板料理（有座位的店）</div></div>
     <div class="schedule-row"><div class="time-col">13:30</div><div class="event-col"><span class="event-tag tag-sight">景點</span>🛍️ <strong>Riverwalk 北九州</strong>（室內商場／漫畫博物館）、小倉城外觀｜全是平地、室內多可坐著休息；小倉城天守有階梯，母親可只在外面看。旦過市場營業狀況未查證</div></div>
     <div class="schedule-row"><div class="time-col">14:30</div><div class="event-col"><span class="event-tag tag-move">交通</span>東九州道 → 別府（約 1.5–2 小時），沿海路線</div></div>
     <div class="schedule-row"><div class="time-col">晚上</div><div class="event-col"><span class="event-tag tag-hotel">住宿</span>別府旅館 Check-in，♨️ 泡溫泉</div></div>
   </div>
-  <div class="tips-box"><div class="tips-title">❄️ 冬季開車</div>福岡 ↔ 別府<strong>一律走沿海的東九州道</strong>，不走經由布院的大分道。出發前一晚查 <strong>JARTIC</strong>、<strong>NEXCO 西日本</strong>。寒流或大雪預報時：省略下關，小倉以室內為主，或提早出發去別府。</div>
+  <div class="tips-box"><div class="tips-title">❄️ 冬季開車</div>福岡 ↔ 別府<strong>一律走沿海的東九州道</strong>，不走經由布院的大分道。出發前一晚查 <strong>JARTIC</strong>、<strong>NEXCO 西日本</strong>。寒流或大雪預報時：D3 博物館、小倉都在室內，或提早出發去別府。</div>
   <div class="hotel-block"><div class="hotel-title">🏨 住宿｜別府（D3–D4，2 晚）</div>溫泉旅館或飯店：有電梯、和洋室（有床）、可預約包租湯、有停車場；可考慮鐵輪（近地獄巡禮）或別府站周邊（吃飯方便）</div>
 </div>
 
