@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>北海道 2026 暑假｜旅遊檢查清單</title>
+<style>
+  :root {
+    --primary: #2563eb;
+    --primary-light: #dbeafe;
+    --accent: #0891b2;
+    --green: #16a34a;
+    --green-light: #dcfce7;
+    --orange: #ea580c;
+    --orange-light: #ffedd5;
+    --purple: #7c3aed;
+    --purple-light: #ede9fe;
+    --red: #dc2626;
+    --yellow: #ca8a04;
+    --yellow-light: #fef9c3;
+    --gray: #6b7280;
+    --gray-light: #f3f4f6;
+    --border: #e5e7eb;
+    --text: #111827;
+    --text-muted: #6b7280;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans TC', sans-serif;
+    background: #f0f4f8;
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 50%, #0891b2 100%);
+    color: white;
+    padding: 36px 20px 44px;
+    text-align: center;
+  }
+  .hero h1 { font-size: 1.7rem; font-weight: 800; margin-bottom: 6px; }
+  .hero .subtitle { font-size: 0.95rem; opacity: 0.88; }
+  .back-link {
+    display: inline-block;
+    margin-top: 16px;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 20px;
+    padding: 5px 16px;
+    font-size: 0.82rem;
+    color: white;
+    text-decoration: none;
+  }
+  .container { max-width: 900px; margin: -20px auto 60px; padding: 0 16px; }
+  .section {
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+  .section-header {
+    padding: 16px 20px;
+    font-size: 1.05rem;
+    font-weight: 700;
+    background: var(--primary-light);
+    color: #1e3a5f;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+  th, td { padding: 10px 14px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+  th { background: var(--gray-light); font-size: 0.78rem; color: var(--text-muted); font-weight: 600; }
+  tr:last-child td { border-bottom: none; }
+  .status { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; white-space: nowrap; }
+  .status input[type=checkbox] { width: 16px; height: 16px; cursor: pointer; accent-color: var(--green); }
+  .badge-done { color: var(--green); }
+  .badge-todo { color: var(--orange); }
+  .note-box {
+    margin: 10px 20px 16px;
+    background: var(--yellow-light);
+    border-left: 3px solid var(--yellow);
+    padding: 10px 14px;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    color: #6b4e00;
+  }
+  .grid2 { display: grid; grid-template-columns: 1fr; }
+  @media (min-width: 700px) { .grid2 { grid-template-columns: 1fr 1fr; gap: 18px; } }
+  .footer-note {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>✅ 北海道旅遊檢查清單</h1>
+  <div class="subtitle">出發：7/31（五）｜回程：8/9（日）｜成員：2大人＋1個8歲小孩</div>
+  <a class="back-link" href="../北海道行程.html">← 回主控台</a>
+</div>
+
+<div class="container">
+
+  <div class="section">
+    <div class="section-header">🎫 機票</div>
+    <table>
+      <tr><th>項目</th><th>狀態</th><th>備註</th></tr>
+      <tr><td>去程機票（→新千歲）</td><td class="status"><input type="checkbox" checked> <span class="badge-todo">已訂</span></td><td>中華航空 CI130，7/31 08:35 桃園起飛→13:35 新千歲抵達（EH64A5）</td></tr>
+      <tr><td>回程機票（新千歲→）</td><td class="status"><input type="checkbox" checked> <span class="badge-todo">已訂</span></td><td>中華航空 CI131，8/9 15:05 新千歲起飛→18:15 桃園抵達（EH64A5）</td></tr>
+      <tr><td>座位選好</td><td class="status"><input type="checkbox"> <span class="badge-todo">未辦</span></td><td>建議靠窗，小孩夾中間</td></tr>
+      <tr><td>行李額度確認</td><td class="status"><input type="checkbox"> <span class="badge-todo">未辦</span></td><td>確認托運件數與重量限制</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-header">🏨 住宿</div>
+    <table>
+      <tr><th>日期</th><th>地點</th><th>狀態</th><th>飯店名稱／訂房確認碼</th></tr>
+      <tr><td>7/31–8/2（3晚）</td><td>札幌</td><td class="status"><input type="checkbox" checked> <span class="badge-todo">已訂</span></td><td>格拉斯麗札幌酒店（ホテルグレイスリー札幌）／6999.813.697</td></tr>
+      <tr><td>8/3–8/4（2晚）</td><td>函館・湯之川溫泉</td><td class="status"><input type="checkbox" checked> <span class="badge-todo">已訂</span></td><td>Hotel Global View Hakodate／6425.998.667</td></tr>
+      <tr><td>8/5（1晚）</td><td>洞爺湖溫泉</td><td class="status"><input type="checkbox" checked> <span class="badge-todo">已訂</span></td><td>洞爺観光ホテル（Toya Kanko Hotel）／ZY26072015242346</td></tr>
+      <tr><td>8/6・8/7（2晚）</td><td>旭川</td><td class="status"><input type="checkbox" checked> <span class="badge-todo">已訂</span></td><td>多美迎旭川飯店（ドーミーイン旭川）／6828.702.008（PIN 6309）</td></tr>
+      <tr><td>8/8（1晚）</td><td>札幌</td><td class="status"><input type="checkbox"> <span class="badge-todo">未訂</span></td><td></td></tr>
+    </table>
+    <div class="note-box">⚠️ 僅剩 8/8 札幌住宿未訂，夏季旺季建議盡早預訂！</div>
+  </div>
+
+  <div class="grid2">
+    <div class="section">
+      <div class="section-header">🚗 租車</div>
+      <table>
+        <tr><th>項目</th><th>狀態</th></tr>
+        <tr><td>租車預約｜TOYOTA・札幌站南口（取車8/3 09:00／還車8/8 17:00，預約號碼101844154）</td><td class="status"><input type="checkbox" checked> <span class="badge-todo">已訂</span></td></tr>
+        <tr><td>車型確認（建議SUV含導航）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>兒童座椅預約（1個，8歲）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>台灣駕照日文翻譯本</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>國際駕照（備用）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>ETC卡預約</td><td class="status"><input type="checkbox"></td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-header">⚾ 已預訂 / 活動預約</div>
+      <table>
+        <tr><th>項目</th><th>狀態</th></tr>
+        <tr><td>ES CON Field球票（8/1）</td><td class="status"><input type="checkbox" checked> <span class="badge-done">已預訂</span></td></tr>
+        <tr><td>球票列印或截圖存手機</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>（無需預約項目）</td><td class="status">—</td></tr>
+      </table>
+      <div class="note-box">函館山纜車・五稜郭タワー・有珠山纜車・洞爺湖遊覧船・旭岳纜車均現場購票，無需預約。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">🚃 交通票券</div>
+    <table>
+      <tr><th>項目</th><th>狀態</th><th>備註</th></tr>
+      <tr><td>JR快速エアポート指定席（去程）</td><td class="status"><input type="checkbox"></td><td>7/31新千歲→札幌，2大1小</td></tr>
+      <tr><td>JR快速エアポート指定席（回程）</td><td class="status"><input type="checkbox"></td><td>8/9札幌→新千歲，10:30班次</td></tr>
+      <tr><td>ES CON接駁巴士確認</td><td class="status"><input type="checkbox"></td><td>8/1，北広島站→ES CON（比賽日才有）</td></tr>
+    </table>
+  </div>
+
+  <div class="grid2">
+    <div class="section">
+      <div class="section-header">📄 文件證件</div>
+      <table>
+        <tr><th>項目</th><th>狀態</th></tr>
+        <tr><td>護照有效期（需6個月以上）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>護照影本＋雲端備份</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>Visit Japan Web登錄</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>旅遊保險</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>信用卡海外通知開通</td><td class="status"><input type="checkbox"></td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-header">📱 通訊 &amp; 導航</div>
+      <table>
+        <tr><th>項目</th><th>狀態</th></tr>
+        <tr><td>日本eSIM購買（IIJmio／HISモバイル）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>Google Maps離線地圖下載</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>翻譯App安裝（日文離線包）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>充電線／行動電源</td><td class="status"><input type="checkbox"></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">💰 金錢準備</div>
+    <table>
+      <tr><th>項目</th><th>狀態</th><th>備註</th></tr>
+      <tr><td>日幣換匯</td><td class="status"><input type="checkbox"></td><td>建議帶JPY 10–15萬現金（部分溫泉旅館只收現金）</td></tr>
+      <tr><td>台灣銀行/郵局匯率確認</td><td class="status"><input type="checkbox"></td><td>或用7-11 ATM提日幣</td></tr>
+      <tr><td>零錢袋準備</td><td class="status"><input type="checkbox"></td><td>停車費、販賣機等多用現金</td></tr>
+    </table>
+  </div>
+
+  <div class="grid2">
+    <div class="section">
+      <div class="section-header">🎒 行李準備</div>
+      <table>
+        <tr><th>項目</th><th>狀態</th></tr>
+        <tr><td>夏季輕薄衣物</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>薄外套/長袖（旭岳山頂約10–15°C，晚間溫泉旅館冷）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>雨衣或折疊傘</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>泳衣（溫泉旅館泳池）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>舒適步行鞋</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>拖鞋</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>防曬乳SPF50+</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>防蚊液</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>常備藥／小孩藥物</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>濕紙巾・面紙／環保袋</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>相機＋記憶卡＋電池</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>多孔插座延長線</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>車用手機架</td><td class="status"><input type="checkbox"></td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-header">🏥 小孩相關</div>
+      <table>
+        <tr><th>項目</th><th>狀態</th></tr>
+        <tr><td>健保卡</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>小孩護照確認</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>暈車藥備用（8/3 札幌→瀧野→登別→函館約3.5h、8/6 洞爺湖→富良野約3h、旭岳山路）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>耳塞（ES CON球場）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>小孩娛樂（平板/書/玩具）</td><td class="status"><input type="checkbox"></td></tr>
+        <tr><td>小孩零食備用</td><td class="status"><input type="checkbox"></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">🛍️ 伴手禮採購清單</div>
+    <table>
+      <tr><th>品項</th><th>購買地點</th><th>狀態</th></tr>
+      <tr><td>白色戀人（限量口味）</td><td>新千歲機場／白色戀人公園</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>ROYCE'生巧克力</td><td>新千歲機場</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>六花亭奶油酥餅</td><td>各地均有、機場</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>三方六</td><td>新千歲機場</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>LeTAO起司蛋糕（常溫版）</td><td>小樽堺町通り（8/2）</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>鬼主題伴手禮</td><td>登別溫泉街（8/3）</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>薰衣草相關商品</td><td>Farm Tomita（8/6）</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>北海道玉米（加工品）</td><td>美瑛選果（8/7）</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>き花（奶油脆餅）</td><td>壺屋総本店（旭川 8/7）</td><td class="status"><input type="checkbox"></td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-header">✅ 出發前最終確認（7/30前）</div>
+    <table>
+      <tr><th>項目</th><th>狀態</th></tr>
+      <tr><td>所有住宿確認信列印或截圖存檔</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>租車確認信列印，標注取車地址</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>每天行程表存至手機離線</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>緊急聯絡人通知</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>家門鑰匙/植物/郵件交代好</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>行李超重確認（通常23kg/件）</td><td class="status"><input type="checkbox"></td></tr>
+      <tr><td>藥妝退稅文件準備</td><td class="status"><input type="checkbox"></td></tr>
+    </table>
+  </div>
+
+  <div class="footer-note">勾選狀態僅存於瀏覽器畫面，重新整理後會重置；正式追蹤請用 .xlsx 檔案。</div>
+
+</div>
+
+</body>
+</html>

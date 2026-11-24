@@ -1,6 +1,12 @@
 .DS_Store
-*.xlsx
-.claude
-.remember
-compile_all_in_one.py
-預定/
+*.sw?
+.claude/
+.remember/
+public-pages/
+
+# 排除北海道殘留檔案
+北海道旅遊檢查清單.md
+預定/0731_0803_札幌 - Booking.com_ 確認.pdf
+預定/0803_0805_涵館 - Booking.com_ 確認.pdf
+預定/0805_0806_洞爺湖 - Booking.com_ 確認.pdf
+預定/0806_0808_旭川 - Booking.com_ 確認.pdf
